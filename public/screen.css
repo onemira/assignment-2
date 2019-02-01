@@ -1,5 +1,7 @@
-:root {
-  font: 16px / 1 sans-serif; color:black !important; line-height: 1.5;
+root {
+  font: 16px / 1 sans-serif;
+  color: black !important;
+  line-height: 1.5;
 }
 
 html {
@@ -9,18 +11,17 @@ html {
 body {
   margin: 0;
   min-height: 100%;
-  font: 14px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-    font-family: 'nanumGothic';
-    src: url(NanumFont_TTF_ALL/NanumGothic.ttf) format('truetype'); } 
-  }
+  font: 14px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 nav {
-  background-color: blanchedalmond
-  font-family: 'Major Mono Display', monospace;
+  background-color: blanchedalmond;
+  font-family: "Major Mono Display", monospace;
 }
 
-nav ul{ 
+nav ul {
   list-style: none;
 }
 
@@ -28,6 +29,21 @@ nav li {
   margin-right: 2rem;
   display: inline;
 }
-  <UL>
-    <li><a href="#">About Yoga</a></Li>
 
+h1 {
+  background-color: peachpuff;
+}
+
+h2 {
+  background-color: lightpink;
+}
+
+#dogimage {
+  display: inline;
+  border: 2px solid black;
+  height: 25rem;
+}
+
+#child1 {
+  border-color: black;
+}
